@@ -1,0 +1,41 @@
+[2022/12/24 03:08:03] Info: Initialize.
+[2022/12/24 03:08:03] Info: Check all.
+[2022/12/24 03:08:03] Info: Check all package.
+[2022/12/24 03:08:03] Info: Installed package (zip)
+[2022/12/24 03:08:03] Info: Installed package (unzip)
+[2022/12/24 03:08:03] Info: Check all directory.
+[2022/12/24 03:08:03] Info: Directory not found ! ($HOME/update)
+[2022/12/24 03:08:03] Info: Created directory ($HOME/update)
+[2022/12/24 03:08:03] Info: Directory was found (./backup)
+[2022/12/24 03:08:03] Info: Directory was found (./game)
+[2022/12/24 03:08:03] Info: All checks are successful.
+[2022/12/24 03:08:03] Info: Checking for update...
+[2022/12/24 03:08:03] Info: File not found ! ($HOME/update/build.zip)
+[2022/12/24 03:08:03] Info: Cannot continue because file does not exist.
+[2022/12/24 03:08:03] Info: Update skipped.
+[2022/12/24 03:08:03] Info: Waiting for new update... (10 second)
+[2022/12/24 03:08:13] Info: Checking for re-update...
+[2022/12/24 03:08:13] Info: File not found ! ($HOME/update/build.zip)
+[2022/12/24 03:08:13] Info: Cannot continue because file does not exist.
+[2022/12/24 03:08:13] Info: Update skipped.
+[2022/12/24 03:08:13] Info: Waiting for new update... (10 second)
+[2022/12/24 03:08:23] Info: Checking for re-update...
+[2022/12/24 03:08:23] Info: File not found ! ($HOME/update/build.zip)
+[2022/12/24 03:08:23] Info: Cannot continue because file does not exist.
+[2022/12/24 03:08:23] Info: Update skipped.
+[2022/12/24 03:08:23] Info: Waiting for new update... (10 second)
+[2022/12/24 03:08:33] Info: Checking for re-update...
+[2022/12/24 03:08:33] Info: File not found ! ($HOME/update/build.zip)
+[2022/12/24 03:08:33] Info: Cannot continue because file does not exist.
+[2022/12/24 03:08:33] Info: Update skipped.
+[2022/12/24 03:08:33] Info: Waiting for new update... (10 second)
+[2022/12/24 03:08:43] Info: Checking for re-update...
+[2022/12/24 03:08:43] Info: File not found ! ($HOME/update/build.zip)
+[2022/12/24 03:08:43] Info: Cannot continue because file does not exist.
+[2022/12/24 03:08:43] Info: Update skipped.
+[2022/12/24 03:08:43] Info: Waiting for new update... (10 second)
+[2022/12/24 03:08:53] Info: Checking for re-update...
+[2022/12/24 03:08:53] Info: File not found ! ($HOME/update/build.zip)
+[2022/12/24 03:08:53] Info: Cannot continue because file does not exist.
+[2022/12/24 03:08:53] Info: Update skipped.
+[2022/12/24 03:08:53] Info: Waiting for new update... (10 second)
