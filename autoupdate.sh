@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 
 #Read config file
 while read preset; do
