@@ -1,18 +1,16 @@
 ﻿#!/bin/bash
+SHELL=/bin/bash
 
-#Read config file
-while read preset; do
-    declare "$preset";
-done < autoupdate.conf
+workdir=$(pwd)
+file_config="autoupdate.config"
 
-build_file=$file_name.$extension_type
-build_file_path=$build_path/$build_file
+echo $workdir
 
 #+
 debug_print(){
     local datetime=$(date +"%Y/%m/%d %H:%M:%S")
     echo "[${datetime}] ${1}: ${2}" 
-    echo "[${datetime}] ${1}: ${2}" >> autoupdate.log
+    #echo "[${datetime}] ${1}: ${2}" >> autoupdate.log
 } 
 
 #+
@@ -20,7 +18,26 @@ quit(){
     debug_print "Info" "Program is terminated. (3 second)"
     sleep 3
     echo "Good bye..."
+    exit
 }
+
+if [ ! -f  "${workdir}/${file_config}" ]; then
+    debug_print "Info" "Config file not found !"
+    quit
+fi
+
+#Read config file
+while read preset; do
+	if [ ! ${preset:0:1} == "#" ]; then
+    	declare "$preset";
+	fi
+done < "${workdir}/${file_config}"
+
+build_path="${workdir}/${build_path}"
+backup_path="${workdir}/${backup_path}"
+
+build_file=$file_name.$extension_type
+build_file_path="${build_path}/${build_file}"
 
 #+
 check_package(){

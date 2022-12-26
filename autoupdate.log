@@ -1,0 +1,19 @@
+[2022/12/26 00:45:05] Info: Initialize.
+[2022/12/26 00:45:05] Info: Check all.
+[2022/12/26 00:45:05] Info: Check all package.
+[2022/12/26 00:45:05] Warning: Not installed package (﻿zip)
+[2022/12/26 00:45:06] Info: Installed package (unzip)
+[2022/12/26 00:45:06] Info: Installed package (jq)
+[2022/12/26 00:45:06] Info: Check all directory.
+[2022/12/26 00:45:06] Info: Directory not found ! (./update)
+[2022/12/26 00:45:06] Info: Created directory (./update)
+[2022/12/26 00:45:06] Info: Directory not found ! (./backup)
+[2022/12/26 00:45:06] Info: Created directory (./backup)
+[2022/12/26 00:45:06] Info: Directory not found ! (./game)
+[2022/12/26 00:45:06] Info: Created directory (./game)
+[2022/12/26 00:45:06] Info: All checks are successful.
+[2022/12/26 00:45:06] Info: Checking for update...
+[2022/12/26 00:45:06] Info: File not found ! (./update/build.zip)
+[2022/12/26 00:45:06] Info: Cannot continue because file does not exist.
+[2022/12/26 00:45:06] Info: Update skipped.
+[2022/12/26 00:45:06] Info: Waiting for new update... (10 second)
